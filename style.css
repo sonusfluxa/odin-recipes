@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 48px;
+}
+
+.link {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.one {
+    background-color: azure;
+}
+
+.two {
+    background-color: honeydew;
+}
+
+.three,
+.four {
+    background-color: lightgray;
+}
+
+.three {
+    color:slategray;
+}
+
+.four {
+    color:darkolivegreen;
+}
