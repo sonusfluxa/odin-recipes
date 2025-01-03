@@ -82,7 +82,7 @@ ul.recipe,
 ol.recipe,
 p.recipe {
     font-size: medium;
-    padding: 10px 10px 10px 40px;
+    padding: 10px;
     margin: auto 10px;
 }
 
@@ -96,4 +96,13 @@ div.card {
     border: 2px solid gray;
     width: fit-content;
     margin: 0 auto;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px;
 }
