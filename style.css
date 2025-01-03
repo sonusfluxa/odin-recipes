@@ -5,6 +5,8 @@ body {
 
 div.container {
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -47,9 +49,19 @@ h1 {
     font-size: 20px;
     display: block;
     text-align: center;
-    border: 2px solid white;
+    border: 5px solid white;
     padding: 5px;
+    margin: 5px;
 }
+
+.home:hover {
+    filter: invert(100%);
+  }
+
+  .link.one:hover,
+  .link.two:hover {
+    filter: invert(100%);
+  }
 
 ul,
 ol,
@@ -68,6 +80,7 @@ ol.recipe,
 p.recipe {
     font-size: medium;
     padding: 10px 10px 10px 30px;
+    margin: auto 10px;
 }
 
 p.recipe,
@@ -78,4 +91,6 @@ h4.recipe {
 
 div.card {
     border: 2px solid gray;
+    width: fit-content;
+    margin: 0 auto;
 }
