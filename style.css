@@ -1,8 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(245, 200, 39, 0.08);
 }
+
 h1 {
     font-size: 48px;
+    text-align: center;
+    border: 1px solid darkslategray;
+    padding: 15px;
+    background-color: white;
 }
 
 .link {
@@ -15,7 +21,7 @@ h1 {
 }
 
 .two {
-    background-color: honeydew;
+    background-color: rgba(146, 6, 111, 0.1);
 }
 
 .three,
@@ -35,4 +41,40 @@ h1 {
     background-color: black;
     color: white;
     font-size: 20px;
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+div.container {
+    text-align: center;
+}
+
+ul,
+ol,
+p,
+h1,
+h2,
+h4,
+.home {
+    display:inline-block;
+    text-align: left;
+
+}
+
+ul.recipe,
+ol.recipe,
+p.recipe {
+    font-size: medium;
+}
+
+p.recipe,
+h2.recipe,
+h4.recipe {
+    padding: 5px;
+}
+
+div.card {
+    border: 2px solid gray;
 }
